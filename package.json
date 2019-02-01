@@ -1,6 +1,6 @@
 {
   "name": "js-ipfs-dep",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compiles binary packages from js-ipfs",
   "engines": {
     "node": ">=6.0.0",
