@@ -1,6 +1,6 @@
 {
   "name": "js-ipfs-dep",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Compiles binary packages from js-ipfs",
   "engines": {
     "node": ">=6.0.0",
@@ -13,7 +13,7 @@
     "jsipfs": "node_modules/ipfs/src/cli/bin.js"
   },
   "pkg": {
-    "scripts": "node_modules/ipfs/src/cli/commands/*.js"
+    "scripts": "node_modules/ipfs/src/cli/commands/**/*.js"
   },
   "author": "ColRad",
   "license": "MIT",
