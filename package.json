@@ -4,7 +4,7 @@
   "description": "Compiles binary packages from js-ipfs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColRad/js-ipfs-dep.git"
+    "url": "https://github.com/ColRad/js-ipfs-dep.git"
   },
   "engines": {
     "node": ">=6.0.0",
