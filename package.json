@@ -1,6 +1,6 @@
 {
   "name": "js-ipfs-dep",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Compiles binary packages from js-ipfs",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "author": "ColRad",
   "license": "MIT",
   "dependencies": {
-    "ipfs": "v0.35.0-pre.0",
+    "ipfs": "v0.35.0-rc.0",
     "pkg": "^4.3.7"
   }
 }
