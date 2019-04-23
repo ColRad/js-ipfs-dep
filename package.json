@@ -1,6 +1,6 @@
 {
   "name": "js-ipfs-dep",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Compiles binary packages from js-ipfs",
   "repository": {
     "type": "git",
