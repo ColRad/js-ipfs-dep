@@ -13,7 +13,7 @@ npm install js-ipfs-dep --save
 
 ### Which js-ipfs version is used?
 
-Currently only tested for ipfs 0.34.4, v0.35.0-rc.0
+Currently only tested for ipfs 0.34.4, v0.35.0-rc.0, v0.38.0
 
 But it can be specified in `package.json`.
 Modify the ipfs version, eg:

@@ -9,7 +9,7 @@ const target = `node${process.version.replace('v', '').split('.')[0]}-${targetPl
 console.log(`Compiling IPFS binary for ${target}`);
 const outDir = 'pkg';
 exec(['package.json', '--target', target, '--out-dir', outDir]).then(() => {
-    let nativeModules = ['keccak', 'leveldown', 'rabin', 'secp256k1', 'ursaNative'];
+    let nativeModules = ['keccak', 'secp256k1', 'ursaNative'];
 
     nativeModules.forEach((m) => {
         glob(path.join('..', '**', 'Release', `${m}.node`), function (err, files) {
